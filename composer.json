@@ -1,5 +1,5 @@
 {
-  "name": "carno-php/gw-client",
+  "name": "carno-php/sgw-client",
   "license": "MIT",
   "require": {
     "moolex/protobuf-php": "^3.5"
