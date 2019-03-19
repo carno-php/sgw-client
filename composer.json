@@ -1,0 +1,16 @@
+{
+  "name": "carno-php/gw-client",
+  "license": "MIT",
+  "require": {
+    "moolex/protobuf-php": "^3.5"
+  },
+  "conflict": {
+    "carno-php/rpc": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carno\\Gateway\\Client\\": "src"
+    },
+    "files": ["aliased.php"]
+  }
+}
